@@ -1,0 +1,12 @@
+{
+  "templates": [
+    "site:{target} +\"error\"",
+    "site:{target} +\"exception\"",
+    "site:{target} +\"stack trace\"",
+    "site:{target} +\"fatal error\""
+  ],
+  "valid_sites": [
+    "{target}"
+  ]
+}
+

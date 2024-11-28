@@ -1,0 +1,11 @@
+{
+  "templates": [
+    "site:drive.google.com +\"{target}\"",
+    "site:drive.google.com intext:{target}",
+    "inurl:drive.google.com +\"file/d\" +\"{target}\""
+  ],
+  "valid_sites": [
+    "drive.google.com"
+  ]
+}
+

@@ -1,0 +1,12 @@
+{
+  "templates": [
+    "site:{target} +\"api_key\"",
+    "site:{target} +\"api_secret\"",
+    "site:{target} +\"access_token\"",
+    "site:{target} +\"authorization\""
+  ],
+  "valid_sites": [
+    "{target}"
+  ]
+}
+

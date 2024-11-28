@@ -1,0 +1,11 @@
+{
+  "templates": [
+    "site:{target} ext:yaml +\"swagger\"",
+    "site:{target} ext:json +\"openapi\"",
+    "site:{target} +\"/api-docs\"",
+    "inurl:{target} +\"swagger.json\""
+  ],
+  "valid_sites": [
+  ]
+}
+

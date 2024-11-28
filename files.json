@@ -1,0 +1,14 @@
+{
+  "templates": [
+    "site:{target} ext:log",
+    "site:{target} ext:sql",
+    "site:{target} ext:env",
+    "site:{target} ext:json",
+    "site:{target} ext:xml",
+    "inurl:{target} +\"config\""
+  ],
+  "valid_sites": [
+    "{target}"
+  ]
+}
+

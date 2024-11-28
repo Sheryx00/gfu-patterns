@@ -1,0 +1,12 @@
+{
+  "templates": [
+    "site:{target} inurl:backup",
+    "site:{target} inurl:archive",
+    "site:{target} inurl:logs",
+    "inurl:{target} +\"directory listing\""
+  ],
+  "valid_sites": [
+    "{target}"
+  ]
+}
+

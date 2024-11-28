@@ -1,0 +1,12 @@
+{
+  "templates": [
+    "site:{target} ext:php +\"wp-config\"",
+    "site:{target} ext:sql +\"wp_users\"",
+    "site:{target} +\"wp-content/uploads\"",
+    "inurl:{target} +\"/wp-admin\""
+  ],
+  "valid_sites": [
+    "{target}"
+  ]
+}
+

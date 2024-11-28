@@ -1,0 +1,12 @@
+{
+  "templates": [
+    "site:{target} inurl:secure",
+    "site:{target} inurl:restricted",
+    "site:{target} inurl:confidential",
+    "inurl:{target} +\"sensitive\""
+  ],
+  "valid_sites": [
+    "{target}"
+  ]
+}
+

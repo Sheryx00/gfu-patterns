@@ -1,0 +1,11 @@
+{
+  "templates": [
+    "site:github.com +\"{target}\"",
+    "site:gitlab.com +\"{target}\""
+  ],
+  "valid_sites": [
+    "github.com",
+    "gitlab.com"
+  ]
+}
+

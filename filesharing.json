@@ -1,0 +1,15 @@
+{
+  "templates": [
+    "site:dropbox.com +\"{target}\"",
+    "site:onedrive.live.com +\"{target}\"",
+    "site:we.tl +\"{target}\"",
+    "inurl:drive.google.com +\"{target}\""
+  ],
+  "valid_sites": [
+    "dropbox.com",
+    "onedrive.live.com",
+    "we.tl",
+    "drive.google.com"
+  ]
+}
+

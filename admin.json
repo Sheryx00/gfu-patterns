@@ -1,0 +1,12 @@
+{
+  "templates": [
+    "site:{target} inurl:admin",
+    "site:{target} inurl:dashboard",
+    "site:{target} inurl:controlpanel",
+    "inurl:{target} +\"admin\""
+  ],
+  "valid_sites": [
+    "{target}"
+  ]
+}
+

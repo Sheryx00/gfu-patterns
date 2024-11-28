@@ -1,0 +1,12 @@
+{
+  "templates": [
+    "site:{target} +\"docker-compose.yml\"",
+    "site:{target} +\"Dockerfile\"",
+    "site:{target} +\"kubeconfig\"",
+    "inurl:{target} +\"/api/v1/pods\""
+  ],
+  "valid_sites": [
+    "{target}"
+  ]
+}
+
