@@ -11,6 +11,5 @@
     "firebase",
     "gcp",
     "{target}"
-
   ]
 }
