@@ -1,0 +1,11 @@
+{
+  "templates": [
+    "site:{target} herokuapp",
+    "site:{target} heroku",
+    "site:{target} fabricApiSecret",
+    "site:{target} heroku_api_key"
+  ],
+  "valid_sites": [
+    "{target}"
+  ]
+}

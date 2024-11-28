@@ -1,0 +1,12 @@
+{
+  "templates": [
+    "site:{target} slack_api",
+    "site:{target} slack_token",
+    "site:{target} xoxp",
+    "site:{target} xoxb",
+    "site:{target} xoxa"
+  ],
+  "valid_sites": [
+    "{target}"
+  ]
+}

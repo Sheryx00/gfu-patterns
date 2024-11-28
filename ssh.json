@@ -1,0 +1,20 @@
+{
+  "templates": [
+    "site:{target} .bash_history",
+    "site:{target} .bash_profile",
+    "site:{target} .bashrc",
+    "site:{target} .git-credentials",
+    "site:{target} .env DB_USERNAME NOT homestead",
+    "site:{target} .esmtprc password",
+    "site:{target} .ftpconfig",
+    "site:{target} .ssh",
+    "site:{target} id_rsa",
+    "site:{target} id_rsa or filename:id_dsa",
+    "site:{target} sshpass",
+    "site:{target} ssh2_auth_password",
+    "site:{target} pem private"
+  ],
+  "valid_sites": [
+    "{target}"
+  ]
+}

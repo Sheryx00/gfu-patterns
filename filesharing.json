@@ -9,7 +9,8 @@
     "dropbox.com",
     "onedrive.live.com",
     "we.tl",
-    "drive.google.com"
+    "drive.google.com",
+    "{target}"
   ]
 }
 

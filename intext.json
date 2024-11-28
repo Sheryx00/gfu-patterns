@@ -1,7 +1,9 @@
 {
     "templates": [
-        "intext:{target}"
+        "intext:+\"{target}\""
     ],
-    "valid_sites": []
+    "valid_sites": [
+    "{target}"
+    ]
 }
 

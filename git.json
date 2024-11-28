@@ -1,0 +1,16 @@
+{
+  "templates": [
+    "site:github.com +\"{target}\"",
+    "site:gitlab.com +\"{target}\"",
+    "site:{target} github_token",
+    "site:{target} git-credentials",
+    "site:{target} github_key",
+    "site:{target} github_access_token"
+  ],
+  "valid_sites": [
+    "{target}",
+    "github.com",
+    "gitlab.com"
+  ]
+}
+

@@ -1,0 +1,21 @@
+{
+  "templates": [
+    "site:{target} aws_access_key_id",
+    "site:{target} aws_key",
+    "site:{target} aws_secret",
+    "site:{target} aws_token",
+    "site:{target} AWSSecretKey",
+    "site:{target} AWS_ACCESS_KEY_ID",
+    "site:{target} AWS_SECRET_ACCESS_KEY",
+    "site:{target} S3_ACCESS_KEY_ID",
+    "site:{target} S3_BUCKET",
+    "site:{target} S3_ENDPOINT",
+    "site:{target} S3_SECRET_ACCESS_KEY",
+    "site:{target} beanstalkd.yml",
+    "site:{target} prod.secret.exs"
+  ],
+  "valid_sites": [
+    "amazonaws.com",
+    "aws"
+  ]
+}

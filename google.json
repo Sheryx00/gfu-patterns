@@ -1,0 +1,16 @@
+{
+  "templates": [
+    "site:{target} api.googlemaps AIza",
+    "site:{target} googleusercontent client_secret",
+    "site:{target} firebase",
+    "site:{target} google_api_key",
+    "site:{target} gcp_secret"
+  ],
+  "valid_sites": [
+    "googleusercontent",
+    "firebase",
+    "gcp",
+    "{target}"
+
+  ]
+}

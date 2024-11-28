@@ -1,14 +1,14 @@
 {
     "templates": [
-        "site:pastebin.com {target}",
-        "site:justpaste.it {target}",
-        "site:hastebin.com {target}",
-        "site:dpaste.com {target}",
-        "site:pastie.org {target}",
-        "site:paste2.org {target}",
-        "site:0bin.net {target}",
-        "site:controlc.com {target}",
-        "site:paste.ee {target}"
+        "site:pastebin.com +\"{target}\"",
+        "site:justpaste.it +\"{target}\"",
+        "site:hastebin.com +\"{target}\"",
+        "site:dpaste.com +\"{target}\"",
+        "site:pastie.org +\"{target}\"",
+        "site:paste2.org +\"{target}\"",
+        "site:0bin.net +\"{target}\"",
+        "site:controlc.com +\"{target}\"",
+        "site:paste.ee +\"{target}\""
     ],
     "valid_sites": [
         "pastebin.com",

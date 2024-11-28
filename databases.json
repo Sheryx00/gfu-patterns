@@ -1,0 +1,18 @@
+{
+  "templates": [
+    "site:{target} password",
+    "site:{target} dbpassword",
+    "site:{target} dbuser",
+    "site:{target} dbpasswd",
+    "site:{target} db_username",
+    "site:{target} mysql",
+    "site:{target} mysql password",
+    "site:{target} redis_password",
+    "site:{target} postgresql",
+    "site:{target} s3password",
+    "site:{target} dbpassword"
+  ],
+  "valid_sites": [
+    "{target}"
+  ]
+}

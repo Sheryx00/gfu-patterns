@@ -1,10 +1,11 @@
 {
     "templates": [
-        "site:s3.amazonaws.com {target}",
-        "site:storage.googleapis.com {target}",
-        "site:blob.core.windows.net {target}",
-        "site:r2.cloudflarestorage.com {target}",
-        "site:r2.dev {target}"
+        "site:s3.amazonaws.com +\"{target}\"",
+        "site:storage.googleapis.com +\"{target}\"",
+        "site:blob.core.windows.net +\"{target}\"",
+        "site:r2.cloudflarestorage.com +\"{target}\"",
+	"site:s3-external-1.amazonaws.com +\"{target}\"",
+        "site:r2.dev +\"{target}\""
     ],
     "valid_sites": [
         "s3.amazonaws.com",

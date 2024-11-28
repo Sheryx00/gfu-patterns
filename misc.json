@@ -1,0 +1,19 @@
+{
+  "templates": [
+    "site:{target} node_env",
+    "site:{target} production",
+    "site:{target} testuser",
+    "site:{target} secret_access_key",
+    "site:{target} password",
+    "site:{target} username",
+    "site:{target} admin_password",
+    "site:{target} aws_access_key",
+    "site:{target} db_user",
+    "site:{target} sf_username",
+    "site:{target} pass",
+    "site:{target} password"
+  ],
+  "valid_sites": [
+    "{target}"
+  ]
+}

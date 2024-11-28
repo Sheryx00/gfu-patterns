@@ -1,0 +1,22 @@
+{
+  "templates": [
+    "site:{target} client_secret",
+    "site:{target} config",
+    "site:{target} oauth_token",
+    "site:{target} apiSecret",
+    "site:{target} api_key",
+    "site:{target} app_key",
+    "site:{target} app_secret",
+    "site:{target} appsecret",
+    "site:{target} appkey",
+    "site:{target} encryption_key",
+    "site:{target} secret_key",
+    "site:{target} secret_token",
+    "site:{target} private_key",
+    "site:{target} API_KEY",
+    "site:{target} API_SECRET"
+  ],
+  "valid_sites": [
+    "{target}"
+  ]
+}

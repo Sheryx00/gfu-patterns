@@ -1,0 +1,23 @@
+{
+  "templates": [
+    "site:blob.core.windows.net +\"{target}\"",
+    "site:\"blob.core.windows.net\" and intext:\"CONFIDENTIAL\" +\"{target}\"",
+    "site:*.core.windows.net intext:\"TLP:RED\" +\"{target}\"",
+    "site:*.core.windows.net +\"{target}\"",
+    "site:*.core.windows.net +blob +\"{target}\"",
+    "site:*.core.windows.net +files -web -blob +\"{target}\"",
+    "site:*.core.windows.net -web +\"{target}\"",
+    "site:*.core.windows.net -web -blob -files +\"{target}\"",
+    "site:*.core.windows.net inurl:dsts.dsts +\"{target}\"",
+    "site:*.core.windows.net inurl:\"+\"{target}\"\" -web +\"{target}\"",
+    "site:*.blob.core.windows.net ext:xls +\"{target}\"",
+    "intext:connectionstring blob filetype:config +\"{target}\"",
+    "intext:accountkey windows.net filetype:xml +\"{target}\"",
+    "intext:storageaccountkey windows.net filetype:txt +\"{target}\""
+  ],
+  "valid_sites": [
+    "blob.core.windows.net",
+    "core.windows.net",
+    "{target}"
+  ]
+}
