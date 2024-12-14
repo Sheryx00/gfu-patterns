@@ -1,0 +1,9 @@
+{
+  "templates": [
+    "site:{target} inurl:'phpinfo.php' OR inurl:'info.php' 'PHP Version'"
+  ],
+  "valid_sites": [
+    "{target}"
+  ]
+}
+

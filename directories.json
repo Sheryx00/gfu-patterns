@@ -3,10 +3,14 @@
     "site:{target} inurl:backup",
     "site:{target} inurl:archive",
     "site:{target} inurl:logs",
-    "inurl:{target} +\"directory listing\""
+    "inurl:{target} +\"directory listing\"",
+    "site:{target} intitle:\"Index of\" inurl:/parent-directory",
+    "site:{target} intitle:\"Index of\" inurl:/admin*",
+    "site:{target} intitle:\"Index of\" inurl:/backup*",
+    "site:{target} intitle:\"Index of\" inurl:/config",
+    "site:{target} intitle:\"Index of\" inurl:/logs*"
   ],
   "valid_sites": [
     "{target}"
   ]
 }
-

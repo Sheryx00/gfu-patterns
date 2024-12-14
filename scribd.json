@@ -1,0 +1,12 @@
+{
+  "templates": [
+    "site:scribd.com +\"{target}\" +\"strictly private\"",
+    "site:scribd.com +\"{target}\" +\"confidential\"",
+    "site:scribd.com +\"{target}\" +\"internal use only\"",
+    "site:scribd.com +\"{target}\" +\"classified\""
+  ],
+  "valid_sites": [
+    "scribd.com"
+  ]
+}
+
