@@ -1,0 +1,17 @@
+{
+  "templates": [
+    "site:{target} inurl:wp-config.php",
+    "site:{target} inurl:phpinfo.php",
+    "site:{target} ext:sql | ext:db | ext:bak",
+    "site:{target} inurl:/.git/config",
+    "site:{target} inurl:config.json",
+    "site:{target} ext:log",
+    "site:{target} ext:xml inurl:config",
+    "site:{target} ext:json inurl:secrets",
+    "site:{target} inurl:db_dump",
+    "site:{target} intitle:\"Index of\""
+  ],
+  "valid_sites": [
+    "{target}"
+  ]
+}
