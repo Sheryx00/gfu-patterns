@@ -1,21 +1,28 @@
 {
     "templates": [
-        "site:pastebin.com +\"{target}\"",
-        "site:justpaste.it +\"{target}\"",
-        "site:hastebin.com +\"{target}\"",
+        "site:0bin.net +\"{target}\"",
+        "site:codepen.io +\"{target}\"",
+        "site:controlc.com +\"{target}\"",
         "site:dpaste.com +\"{target}\"",
+        "site:justpaste.it +\"{target}\"",
+        "site:jsfiddle.net +\"{target}\"",
+        "site:hastebin.com +\"{target}\"",
+        "site:notepad.link +\"{target}\"",
         "site:pastie.org +\"{target}\"",
         "site:paste2.org +\"{target}\"",
-        "site:0bin.net +\"{target}\"",
-        "site:controlc.com +\"{target}\"",
-        "site:paste.ee +\"{target}\""
+        "site:pastebin.com +\"{target}\""
     ],
     "valid_sites": [
-        "pastebin.com",
-        "justpaste.it",
-        "hastebin.com",
+        "0bin.net",
+        "codepen.io",
+        "controlc.com",
         "dpaste.com",
+        "justpaste.it",
+        "jsfiddle.net",
+        "hastebin.com",
+        "notepad.link",
         "pastie.org",
-        "paste2.org"
+        "paste2.org",
+        "pastebin.com"
 	]
 }
