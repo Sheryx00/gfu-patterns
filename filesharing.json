@@ -3,13 +3,39 @@
     "site:dropbox.com +\"{target}\"",
     "site:onedrive.live.com +\"{target}\"",
     "site:we.tl +\"{target}\"",
-    "inurl:drive.google.com +\"{target}\""
+    "inurl:drive.google.com +\"{target}\"",
+    "site:s3.amazonaws.com \"{target}\"",
+    "site:blob.core.windows.net \"{target}\"",
+    "site:googleapis.com \"{target}\"",
+    "site:drive.google.com \"{target}\"",
+    "site:dev.azure.com \"{target}\"",
+    "site:onedrive.live.com \"{target}\"",
+    "site:digitaloceanspaces.com \"{target}\"",
+    "site:sharepoint.com \"{target}\"",
+    "site:s3-external-1.amazonaws.com \"{target}\"",
+    "site:s3.dualstack.us-east-1.amazonaws.com \"{target}\"",
+    "site:dropbox.com/s \"{target}\"",
+    "site:box.com/s \"{target}\"",
+    "site:docs.google.com inurl:\"/d/\" \"{target}\"",
+    "site:firebaseio.com \"{target}\""
+
   ],
   "valid_sites": [
+    "s3-external-1.amazonaws.com",
+    "box.com/s",
+    "dev.azure.com",
+    "digitaloceanspaces.com",
+    "docs.google.com",
+    "dropbox.com/s",
+    "s3.dualstack.us-east-1.amazonaws.com",
     "dropbox.com",
-    "onedrive.live.com",
     "we.tl",
-    "drive.google.com"
+    "sharepoint.com",
+    "blob.core.windows.net",
+    "s3.amazonaws.com",
+    "googleapis.com",
+    "onedrive.live.com",
+    "drive.google.com",
+    "firebaseio.com"
   ]
 }
-

@@ -3,7 +3,9 @@
     "site:{target} ext:yaml +\"swagger\"",
     "site:{target} ext:json +\"openapi\"",
     "site:{target} +\"/api-docs\"",
-    "inurl:{target} +\"swagger.json\""
+    "site:{target} inurl:api | site:*/rest | site:*/v1 | site:*/v2 | site:*/v3",
+    "site:{target} inurl:apidocs | inurl:api-docs | inurl:swagger | inurl:api-explorer"
+
   ],
   "valid_sites": [
   ]
